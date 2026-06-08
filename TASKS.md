@@ -12,6 +12,7 @@
 - Added Docker Compose for SQL Server.
 - Added initial EF Core migration for SQL Server schema.
 - Added README, SPEC, TASKS, and DECISIONS.
+- Created GitHub repository `IuryFredson/flowcore` and pushed `feature/flowcore-mvp`.
 
 ## Pending
 
@@ -19,11 +20,3 @@
 - Validate the manual initial migration with `dotnet ef migrations list --project apps/api/src/FlowCore.Api`.
 - Install Angular dependencies and run `npm run build` in `apps/web`.
 - Add seed data endpoint or startup seeding for demo usage.
-- Create GitHub repository and push when authenticated:
-
-```bash
-gh auth login -h github.com
-gh repo create IuryFredson/flowcore --public --source . --remote origin --push
-```
-
-Current `gh auth status` result: the saved token for `IuryFredson` is invalid.
