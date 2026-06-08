@@ -20,3 +20,4 @@
 - Validate the manual initial migration with `dotnet ef migrations list --project apps/api/src/FlowCore.Api`.
 - Install Angular dependencies and run `npm run build` in `apps/web`.
 - Add seed data endpoint or startup seeding for demo usage.
+- Create a `main` base branch and open a PR after SDK/build verification. The GitHub repository currently has `feature/flowcore-mvp` as its default branch because it was created from the feature branch.
