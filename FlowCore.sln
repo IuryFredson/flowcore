@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowCore.Api", "apps\api\src\FlowCore.Api\FlowCore.Api.csproj", "{6737F041-1E0D-43A7-94B3-34E2F249E52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowCore.Api.Tests", "apps\api\tests\FlowCore.Api.Tests\FlowCore.Api.Tests.csproj", "{850C90E8-DB13-42C9-86F2-1D7524B4C9D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6737F041-1E0D-43A7-94B3-34E2F249E52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6737F041-1E0D-43A7-94B3-34E2F249E52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6737F041-1E0D-43A7-94B3-34E2F249E52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6737F041-1E0D-43A7-94B3-34E2F249E52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850C90E8-DB13-42C9-86F2-1D7524B4C9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850C90E8-DB13-42C9-86F2-1D7524B4C9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850C90E8-DB13-42C9-86F2-1D7524B4C9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850C90E8-DB13-42C9-86F2-1D7524B4C9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
+

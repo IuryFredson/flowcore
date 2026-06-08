@@ -1,0 +1,38 @@
+<main class="shell">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Protocol workflow</p>
+      <h1>FlowCore</h1>
+    </div>
+    <div class="summary">
+      <span>{{ openCount() }}</span>
+      <small>active cases</small>
+    </div>
+  </header>
+
+  <section class="toolbar" aria-label="Protocol filters">
+    <button type="button" class="active">All</button>
+    <button type="button">In analysis</button>
+    <button type="button">Waiting docs</button>
+    <button type="button">Approved</button>
+  </section>
+
+  <section class="table" aria-label="Protocols">
+    <div class="row header">
+      <span>Number</span>
+      <span>Subject</span>
+      <span>Status</span>
+      <span>Department</span>
+      <span>Updated</span>
+    </div>
+
+    <div class="row" *ngFor="let protocol of protocols()">
+      <strong>{{ protocol.number }}</strong>
+      <span>{{ protocol.subject }}</span>
+      <span class="status">{{ protocol.status }}</span>
+      <span>{{ protocol.department }}</span>
+      <span>{{ protocol.updatedAt }}</span>
+    </div>
+  </section>
+</main>
+
