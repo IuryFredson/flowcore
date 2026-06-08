@@ -22,5 +22,8 @@
 - Create GitHub repository and push when authenticated:
 
 ```bash
+gh auth login -h github.com
 gh repo create IuryFredson/flowcore --public --source . --remote origin --push
 ```
+
+Current `gh auth status` result: the saved token for `IuryFredson` is invalid.
